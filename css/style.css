@@ -1,0 +1,27 @@
+:root {
+    --yellow: #EED616;
+    --dark-blue: #0a0948;
+    --gray-blue: #74748c;
+    --white: #ededf0;
+
+    --title: 700 48px "Poppins";
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font: var(--title);
+  
+}
