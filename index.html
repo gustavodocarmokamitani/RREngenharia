@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./lib/slick-1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./lib/slick-1.8.1/slick/slick-theme.css" />
@@ -54,26 +54,30 @@
                 </div>
             </div>
         </nav>
+    </div>
+    <!-- Navigation -->
 
-        <!-- Navigation -->
-        <!-- Header -->
-        <div class="header">
+    <!-- Header -->
+    <div class="header d-flex  align-items-center">
+        <div class="container">
             <div class="row">
                 <div class="col-6">
                     <h1>Titulo</h1>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. </p>
-                    <button class="btn btn-success">Contato</button>
+                    <button class="btn">Contato</button>
                 </div>
             </div>
         </div>
-        <!-- Header -->
+    </div>
+    <!-- Header -->
 
-        <!-- Sobre -->
-        <div class="sobre">
-            <div class="row">
+    <!-- Sobre -->
+    <div class="container">
+        <div class="sobre ">
+            <div class="row d-flex align-items-center">
                 <div class="col-6">
-                    <!-- <img src="" alt="">     -->
+                    <img class="sobreImg" src="./image/joao.png" alt="">
                 </div>
                 <div class="col-6">
                     <h4>Sobre</h4>
@@ -81,23 +85,23 @@
                         classical Latin literature from 45 BC, making it over 2000 years old. Lorem Ipsum is not simply
                         random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
                         2000 years old. Lorem Ipsum is not simply random text. It has roots in a piece of classical</p>
-                    <button class="btn btn-success">Contato</button>
+                    <button class="btn">Contato</button>
                 </div>
             </div>
         </div>
         <!-- Sobre -->
 
         <!-- Serviços -->
-        <div class="servicos">
+        <div class="servicos text-center">
             <div class="row">
                 <div class="col">
                     <h1>Serviços</h1>
                 </div>
             </div>
             <div class="row ">
-                <div class="col-4 text-center">
-                    <img src="./image/caixa-de-ferramentas.png" width="50px" alt="">
-                    <h4>Exemplo</h4>
+                <div class="col-4">
+                    <img src="./image/caixa-de-ferramentas.png" width="70px" alt="">
+                    <h4>Otimização e Modernização</h4>
                     <p>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -107,9 +111,9 @@
                         classical literature.
                     </p>
                 </div>
-                <div class="col-4 text-center">
-                    <img src="./image/raio.png" width="50px" alt="">
-                    <h4>Exemplo</h4>
+                <div class="col-4">
+                    <img src="./image/raio.png" width="70px" alt="">
+                    <h4>Cálculo de Demanda</h4>
                     <p>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -119,9 +123,9 @@
                         classical literature.
                     </p>
                 </div>
-                <div class="col-4 text-center">
-                    <img src="./image/comprar-online.png" width="50px" alt="">
-                    <h4>Exemplo</h4>
+                <div class="col-4">
+                    <img src="./image/comprar-online.png" width="70px" alt="">
+                    <h4>Vistoria e Laudo Técnico</h4>
                     <p>
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
@@ -136,7 +140,7 @@
         <!-- Serviços -->
 
         <!-- Galeria -->
-        <div class="galeria">
+        <div class="galeria text-center">
             <h1>Galeria</h1>
             <div class="row">
                 <div class="col">
@@ -155,8 +159,13 @@
         <!-- Galeria -->
 
         <!-- Contato -->
-        <div class="contato">
-            <div class="row">
+        <div class="contato  d-flex flex-column align-items-center">
+            <div class="row text-center">
+                <div class="col">
+                    <h1>Contato e Informações</h1>
+                </div>
+            </div>
+            <div class="row d-flex">
                 <div class="col-6">
                     <h5>Telefone:</h5>
                     <p>WhatsApp: (11) 3526-6226</p>
@@ -169,13 +178,24 @@
                         Cj. 2019 / 20º Andar - São Paulo - SP</p>
 
                     <h2>Faca seu orçamento</h2>
-                    <button class="btn btn-success">WhatsApp</button>
+                    <button class="btn">WhatsApp</button>
                 </div>
                 <div class="col-6">
-                    <img src="./image/pexels-anton-46924.jpg" width="100%" alt="">
+                    <img src="./image/pexels-anton-46924.jpg" alt="">
                 </div>
             </div>
         </div>
+        <!-- Contato -->
+
+        <!-- Footer --> 
+        <div class="footer d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col">
+                    <p>Example - Todos direitos reservados © 2022. Gustavo Kamitani</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Contato -->
     </div>
 

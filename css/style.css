@@ -1,27 +1,134 @@
 :root {
-    --yellow: #EED616;
+    --yellow: #eed616;
     --dark-blue: #0a0948;
     --gray-blue: #74748c;
     --white: #ededf0;
-
-    --title: 700 48px "Poppins";
-    
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
+}
+
+/* Componentes */
+.btn {
+    background: var(--dark-blue);
+    color: var(--white);
+    border-radius: 2px;
+    width: 132px;
+    height: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--dark-blue);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray-blue);
+}
+
+/* End Componentes */
+
+/* Header */
+.header {
+    background-image: url(../image/joao-tzanno-BxoaHOKCD_Q-unsplash\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 550px;
+    margin-bottom: 200px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.header p {
+    color: #fff;
+    margin: 35px 0;
+}
+/* End Header */
+
+/* Sobre */
+.sobre {
+    margin-bottom: 200px;
+}
+
+.sobreImg {
+    width: 540px;
+    height: 430px;
+}
+
+.sobre h4 {
+    margin-bottom: 45px;
+}
+
+.sobre .btn {
+    margin-top: 45px;
+}
+/* End Sobre */
+
+/* Serviços */
+.servicos {
+    margin-bottom: 200px;
+}
+
+.servicos h1 {
+    margin-bottom: 50px;
+}
+
+.servicos h4 {
+    padding: 25px 0;
+}
+/* End Serviços */
+
+/* Galeria */
+.galeria {
+    margin-bottom: 200px;
+}
+
+.galeria h1 {
+    margin-bottom: 50px;
 }
 
 .carousel {
     width: 100%;
     margin: 0 auto;
 }
+/* End Galeria */
 
-.header h1 {
-    font: var(--title);
-  
+/* Contato */
+.contato {
+    height: 450px;
+    overflow: hidden;
 }
+
+.contato h1{
+    margin-bottom: 50px;
+}
+
+.contato img {
+    width: 100%;
+}
+/* End Contato */
+
+/* Footer */
+.footer {
+    margin-top: 200px;
+}
+/* End Footer */
+
