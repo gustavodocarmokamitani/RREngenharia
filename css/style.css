@@ -52,6 +52,23 @@ p {
 
 /* End Componentes */
 
+/* Navigation */
+.navbar  a{
+    font-weight: 400;
+    color: var(--dark-blue);
+    transition: all ease .3s;    
+}
+
+.nav-item a {
+    margin: 0 20px;
+}
+
+.navbar  a:hover {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+/* End Navigation */
+
 /* Header */
 .header {
     background-image: url(../image/joao-tzanno-BxoaHOKCD_Q-unsplash\ 1.png);
