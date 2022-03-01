@@ -68,7 +68,7 @@ p {
 }
 
 .navbar  a:hover {
-    color: var(--dark-blue);
+    color: var(--yellow);
     font-weight: 700;
 }
 /* End Navigation */
@@ -164,7 +164,7 @@ p {
 
 /* Contato */
 .contato {
-    height: 450px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -182,3 +182,15 @@ p {
     margin-top: 200px;
 }
 /* End Footer */
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    
+    .nav-item a {
+        margin: 0 0;
+    }
+
+}
