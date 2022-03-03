@@ -1,3 +1,4 @@
+![gustavodocarmokamitani github io](https://user-images.githubusercontent.com/26381791/156616874-ab199e73-9df2-4dfe-86f2-bffb41c43198.png)
 ## Welcome! 👋
 --------------------------------------------------------------------------
 
