@@ -1,0 +1,119 @@
+[33mcommit 64983528248db7cd2d7a986e9da0b7564ab2ba32[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Fri Aug 12 14:48:45 2022 -0300
+
+    att: novos informacoes
+
+[33mcommit e897a87e748f87eafe67948a5afd3d6367e96465[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Aug 4 12:12:32 2022 -0300
+
+    finalizacao 1.0
+
+[33mcommit b09e443bc33c7c7b7f689469012debaad872c597[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon May 16 15:04:25 2022 -0300
+
+    Update README.md
+
+[33mcommit 802836581557cebeac93bcf45bad857cf61b2f32[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Mar 3 14:18:34 2022 -0300
+
+    Update README.md
+
+[33mcommit 347fe1a2b14dea2bc28c4387a2702c45398f6487[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Mar 3 14:11:32 2022 -0300
+
+    Update README.md
+
+[33mcommit 6021340fca30aedf1facaca7ad885da400e59008[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Mar 3 14:10:31 2022 -0300
+
+    Update README.md
+
+[33mcommit 5cc019f10cb3f38154ccc5c9d8512b29a86fd7b5[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Mar 3 14:10:07 2022 -0300
+
+    Update README.md
+
+[33mcommit 6bc43a67f0b3342d19d8f8ef57fa3535e72a5763[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Thu Mar 3 14:09:54 2022 -0300
+
+    Create README.md
+
+[33mcommit d4a106eb4f9e1e1b8fb6e043dc0940598f406618[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Wed Mar 2 14:08:59 2022 -0300
+
+    style(:lipstick:): update the UI and style files
+
+[33mcommit 95b667b3b00648bb776f7dbedaf7b849435c65f8[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Tue Mar 1 09:15:17 2022 -0300
+
+    style(:art:): fix sobre margin
+
+[33mcommit 71e5eb26c9823c6bc206c19e936ccb724f2c6638[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Tue Mar 1 09:12:27 2022 -0300
+
+    fix(:bug:): navigation fix
+
+[33mcommit 90b93a8111d13c16f14f1c434db03e0109e53d4a[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Tue Mar 1 09:10:10 2022 -0300
+
+    style(:art:): add navbar
+
+[33mcommit a6994d2c564ed69ec7b655325bbf1b58637a5ed3[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Tue Mar 1 08:57:32 2022 -0300
+
+    style(:art:): finalizing mobile responsiveness
+
+[33mcommit fc0b103b2329431a5914aa007bf81f8e2016b094[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Tue Mar 1 08:37:54 2022 -0300
+
+    style(:art:): finishing the responsive
+
+[33mcommit c48db7c7ad2d0c248f5a2e50805673c7d0f292f1[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 20:58:22 2022 -0300
+
+    fix(:bug:): fixing Image Error
+
+[33mcommit eda516e187adeb1b4de5a974e2d805c279e41753[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 20:45:28 2022 -0300
+
+    fix(:bug:): fixing bug in header image
+
+[33mcommit 61b649fb6f0e2520a1aad67b8d39a60d9de67625[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 20:25:51 2022 -0300
+
+    fix(:bug:): correcting image
+
+[33mcommit 3cb8fab2d8a924a2149461d9245c059daf4abb8e[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 20:17:34 2022 -0300
+
+    feat(:sparkles:): hover and animation finished
+
+[33mcommit e5f066f87b9f2c40acb1a256feabcf7a972fd693[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 19:06:35 2022 -0300
+
+    feat(:sparkles:): complete structure
+
+[33mcommit 92931fccc03bf8149a10ecd37d63831ee4a411a0[m
+Author: gustavodocarmokamitani <gustavodocarmokamitani@gmail.com>
+Date:   Mon Feb 28 18:11:12 2022 -0300
+
+    first commit
