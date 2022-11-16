@@ -1,0 +1,273 @@
+:root {
+    --yellow: #eed616;
+    --dark-blue: #0a0948;
+    --gray-blue: #74748c;
+    --white: #ededf0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    /* IMPORTANT */
+    overflow-x: hidden;
+}
+
+/* Componentes */
+.btn {
+    background: var(--dark-blue);
+    border-radius: 2px;
+    width: 132px;
+    height: 50px;
+    transition: all ease 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: var(--yellow);
+}
+
+.btn:hover a {
+    color: black !important;
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--dark-blue);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray-blue);
+}
+
+/* End Componentes */
+
+/* Navigation */
+
+.navbar a {
+    font-weight: 400;
+    color: var(--dark-blue);
+    transition: all ease .3s;
+}
+
+.nav-item a {
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+    font-weight: 700;
+    color: var(--yellow) !important;
+}
+
+/* End Navigation */
+
+/* Header */
+.header {
+    background-image: url(../image/joao-tzanno-BxoaHOKCD_Q-unsplash\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 700px;
+    margin-bottom: 200px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.header span {
+    font-weight: 100;
+}
+
+.header p {
+    color: #fff;
+    margin: 35px 0;
+}
+
+/* End Header */
+
+/* Sobre */
+.sobre {
+    transition: all ease .5s;
+    margin-bottom: 200px;
+}
+
+.sobreImg {
+    width: 540px;
+    height: 430px;
+}
+
+.sobre h4 {
+    margin-bottom: 45px;
+}
+
+.sobre .btn {
+    margin-top: 45px;
+}
+
+/* End Sobre */
+
+/* Serviços */
+.servicos {
+    margin-bottom: 200px;
+}
+
+.servicos .cards {
+    width: 370px;
+    margin: 0 10px;
+    padding: 15px 15px;        
+}
+
+.cards:hover {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+}
+
+.servicos img {
+    padding-top: 25px;
+}
+
+.servicos h1 {
+    margin-bottom: 50px;
+}
+
+.servicos h4 {
+    width: 100%;
+    padding: 25px 0px;
+    font-size: 20px;
+}
+
+.servicos p {
+    padding: 0 15px;
+}
+
+/* End Serviços */
+
+/* Galeria */
+.galeria {
+    margin-bottom: 200px;
+}
+
+.galeria h1 {
+    margin-bottom: 50px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* End Galeria */
+
+/* Contato */
+.contato {
+    height: 500px;
+    overflow: hidden;
+}
+
+.contato h1 {
+    margin-bottom: 50px;
+}
+
+.orcamento {
+    height: 200px;    
+}
+
+.contato img {
+    width: 100%;
+}
+
+/* End Contato */
+
+/* Footer */
+.footer {
+    margin-top: 200px;
+}
+
+/* End Footer */
+
+
+
+/* Responsive */
+@media screen and (max-width: 1400px) {
+    .cards {
+        width: 250px !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cards img {
+        width: 30%;
+    }
+
+    .cards h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-weight: 700;
+        font-size: 54px;
+        color: var(--dark-blue);
+    }
+
+    .nav-item a {
+        margin: 0 0;
+    }
+
+    .header {
+        margin-bottom: 100px;
+    }
+
+    .sobre {
+        margin-bottom: 100px;
+    }
+
+    .sobre h4 {
+        font-size: 48px;
+    }
+    .contato {
+        height: 600px;            
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 34px;
+    }
+    
+}
